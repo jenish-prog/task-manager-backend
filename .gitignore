@@ -2,6 +2,10 @@
 .DS_Store
 **/.DS_Store
 
+# Ignore nested client/mobile project
+mobile/
+**/mobile/
+
 # Node / frontend build artifacts
 node_modules/
 **/node_modules/
