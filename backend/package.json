@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Task Management API with Node.js, Express, TypeScript, and MongoDB",
   "main": "dist/server.js",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "build": "tsc",
